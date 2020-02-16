@@ -1,21 +1,21 @@
-# language: node_js
+language: node_js
 
-# node_js:
-#   - 8
-#   - 10
-#   - 11
-#   - 12
+node_js:
+  - 8
+  - 10
+  - 11
+  - 12
 
-# env:
-#   - INSTALL=yarn
-#   - INSTALL=npm
+env:
+  - INSTALL=yarn
+  - INSTALL=npm
 
-# matrix:
-#   fast_finish: true
+matrix:
+  fast_finish: true
 
-# install:
-#   - if [ "yarn" == $INSTALL ]; then yarn install; fi
-#   - if [ "npm" == $INSTALL ]; then npm install; fi
+install:
+  - if [ "yarn" == $INSTALL ]; then yarn install; fi
+  - if [ "npm" == $INSTALL ]; then npm install; fi
 
-# script:
-#   - echo 'Tests must be configured'
+script:
+  - echo 'Tests must be configured'
