@@ -37,7 +37,9 @@ var app = new Vue({
     }]
     },
     methods:{
-        se
+        search(){
+            
+        }
     }
   })
   //0704195977
